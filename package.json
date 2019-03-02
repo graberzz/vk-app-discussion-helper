@@ -7,7 +7,7 @@
     "start": "cross-env PORT=10888 react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build" 
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +15,7 @@
   "devDependencies": {
     "cross-env": "^5.2.0",
     "gh-pages": "^2.0.1",
+    "prettier": "1.16.4",
     "react-hot-loader": "^4.3.4",
     "react-scripts": "^1.1.4"
   },

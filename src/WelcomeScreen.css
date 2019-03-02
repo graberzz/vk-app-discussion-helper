@@ -1,0 +1,17 @@
+.WelcomeScreen {
+    background: url('./img/roses.jpg') center no-repeat;
+    background-size: cover;
+    width: 100vh;
+    height: 100vh;
+}
+
+.WelcomeScreen__content {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 95%;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    transform: translate(-50%, -50%);
+}

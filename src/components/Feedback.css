@@ -1,0 +1,18 @@
+.Feedback {
+    padding: 0 10px;
+}
+
+.Feedback__head {
+    display: flex;
+    align-items: center;
+}
+
+.Feedback__avatar {
+    margin-right: 15px;
+}
+
+.Feedback__text {
+    padding-bottom: 20px;
+    font-size: 0.9em;
+    color: var(--content_placeholder_text);
+}
